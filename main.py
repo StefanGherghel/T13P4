@@ -12,6 +12,7 @@ if __name__ == '__main__':
     listaMea4 = seq(listaMea3).map(lambda elem: elem[0]*elem[1])     #c)
     print(listaMea4)
 
+
     listaMea5 = seq(listaMea4).sum()
     print(listaMea5)
 
